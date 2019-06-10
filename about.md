@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-My Name is Geunyoung Park. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My Name is Geunyoung Park. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Daniel
+![Daniel](/assets/img/daniel.png)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Jessi
+![Jessi](/assets/img/jessi.png)
+
 
 
 [jekyll-organization]: https://github.com/jekyll
