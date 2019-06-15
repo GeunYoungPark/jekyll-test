@@ -39,5 +39,7 @@ thumbnail: https://picsum.photos/id/403/2560/600
     * Add emoji
     * Add image
 6. git
+    * Download sourcetree :  https://www.sourcetreeapp.com/
+    * Create new repository and push your project files
 
 
