@@ -6,6 +6,12 @@
   <li>
     {% include _icons/rss.html %}
   </li>
+  
+  {% if site.email %}
+  <li>
+    {% include _icons/email.html username=site.email %}
+  </li>
+  {% endif %}
 
   {% if site.github_username %}
   <li>

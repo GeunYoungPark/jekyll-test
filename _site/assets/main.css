@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|PT+Serif");
+pre[class^="highlight"] {
+  border: 0.5px #747373 solid;
+  background-color: rgba(233, 229, 229, 0.856); }
+
 /**
  * Reset some basic elements
  */
@@ -187,21 +191,14 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #3F3F3F;
-  padding-left: 25px;
-  padding-right: 50px;
-  font-size: 1.15rem;
-  line-height: 1.84rem; }
-  @media (max-width: 75em) {
-    blockquote {
-      font-size: 1.15rem;
-      line-height: 1.84rem; } }
-  @media (max-width: 45em) {
-    blockquote {
-      font-size: 0.95rem;
-      line-height: 1.84rem; } }
-  blockquote > :last-child {
-    margin-bottom: 0; }
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid #8b838b;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 100; }
+  blockquote:before, blockquote:after {
+    color: #8b838b; }
 
 /**
  * Code formatting
@@ -273,8 +270,10 @@ hr {
   margin: 50px auto 25px auto;
   width: 100%;
   padding-left: 10%;
-  border: none;
-  border-top: 1px dashed #3F3F3F;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
   font-size: 1.15rem;
   line-height: 1.84rem; }
   @media (max-width: 75em) {

@@ -186,16 +186,36 @@ a {
  * Blockquotes
  */
 
-blockquote {
-  color: $grey-color;
-  padding-left: $spacing-unit / 2;
-  padding-right: $spacing-unit;
-  @include size(small);
+// blockquote {
+//   color: $grey-color;
+//   padding-left: $spacing-unit / 2;
+//   padding-right: $spacing-unit;
+//   @include size(small);
 
-  > :last-child {
-    margin-bottom: 0;
-  }
+//   > :last-child {
+//     margin-bottom: 0;
+//   }
+// }
+
+
+blockquote {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid lighten($blockquote-color, 40%);
+  // font-family: 'Roboto', serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 100;
+  &:before, &:after {
+      // content: '\201C';
+      // font-family: 'Sanchez';
+      color: lighten($blockquote-color, 40%);
+   }
+   &:after {
+      // content: '\201D';
+   }
 }
+
 
 
 
@@ -252,10 +272,15 @@ hr {
   margin: $spacing-unit auto $spacing-unit / 2 auto;
   width: 100%;
   padding-left: 10%;
-  border: none;
-  border-top: 1px dashed $grey-color;
+  // border: none;
+  // border-top: 1px solid $grey-color;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
   @include size(small);
 }
+
 
 
 /**

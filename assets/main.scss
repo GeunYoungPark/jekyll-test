@@ -22,6 +22,7 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #d33682;
 
+
 $grey-color:       #3F3F3F;
 $grey-color-light: lighten($grey-color, 50%);
 $grey-color-lighter: lighten($grey-color, 70%);
@@ -36,11 +37,21 @@ $on-laptop:        700px;
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
-//     .wrapper {
+//     .wrapper {d
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
 
+/////// for blockquote
+$blockquote-color:         rgb(34, 32, 34);
+
+
+
+pre[class^="highlight"]{
+    border: 0.5px rgb(116, 115, 115) solid;
+    background-color: rgba(233, 229, 229, 0.856);
+    }
+    
 // Import partials from the `minima` theme.
 @import "academic";
