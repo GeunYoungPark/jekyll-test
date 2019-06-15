@@ -20,6 +20,8 @@ thumbnail: https://picsum.photos/id/403/2560/600
 2. markdown  
     A cheat sheet (also cheatsheet) or crib sheet is a concise set of notes used for quick reference. They contain a collection of notes, facts, and commands you can reference at any given time. For programming, the cheat sheets contain common syntaxes and data properties for a particular coding language.  
     Here is markdown cheat sheet. Click this --> [markdown-cheatsheet pdf](/assets/markdown-cheatsheet-online.pdf)
+    * setup markdown snippet
+    ![ markdown snippet](/assets/img/markdownsnippet.JPG) 
 3. Let's change "About.md"   
     * Open "About.md" file. You will see codes like this. Change "layout" from post to about  
     ```yaml
