@@ -48,7 +48,7 @@ $blockquote-color:         rgb(34, 32, 34);
 
 
 
-pre[class^="highlight"]{
+div[class^="language"] pre{
     border: 0.5px rgb(116, 115, 115) solid;
     background-color: rgba(233, 229, 229, 0.856);
     }

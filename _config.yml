@@ -1,7 +1,6 @@
 title: GeunYoung Park
 pitch: "Helloooooo world"
 cc: 
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is Geun Young's blog site. I like drawing, code art and robots. 
 baseurl: "" # the subpath of your site, e.g. /blog

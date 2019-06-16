@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-15T21:13:31+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GeunYoung Park</title><subtitle>This is Geun Young's blog site. I like drawing, code art and robots. </subtitle><entry><title type="html">Customize your jekyll site</title><link href="http://localhost:4000/jekyll/2019/06/13/how-to-customize.html" rel="alternate" type="text/html" title="Customize your jekyll site" /><published>2019-06-13T00:00:00+10:00</published><updated>2019-06-13T00:00:00+10:00</updated><id>http://localhost:4000/jekyll/2019/06/13/how-to-customize</id><content type="html" xml:base="http://localhost:4000/jekyll/2019/06/13/how-to-customize.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-16T09:24:34+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GeunYoung Park</title><subtitle>This is Geun Young's blog site. I like drawing, code art and robots. </subtitle><entry><title type="html">Customize your jekyll site</title><link href="http://localhost:4000/jekyll/2019/06/13/how-to-customize.html" rel="alternate" type="text/html" title="Customize your jekyll site" /><published>2019-06-13T00:00:00+10:00</published><updated>2019-06-13T00:00:00+10:00</updated><id>http://localhost:4000/jekyll/2019/06/13/how-to-customize</id><content type="html" xml:base="http://localhost:4000/jekyll/2019/06/13/how-to-customize.html">&lt;ol&gt;
   &lt;li&gt;Visual Studio Extensions &lt;br /&gt;
  Open Extenions by Ctrl+Shit+x&lt;br /&gt;
- There is side menu on top left. Click … and select installed extensions. Only installed extensions are broght up on a list. &lt;br /&gt;
- Once you check what extensions are installed, search extensions below and install all of them.
+ There is side menu on top left. Click … and select installed extensions. Only installed extensions are brought up on a list. Check what extensions are installed
+ This list is extenstions you will need to make jekyll site. 
+ Open extension panel and search extensions below to install all of them.
     &lt;ul&gt;
       &lt;li&gt;Markdown+Math(goessner.mdmath)&lt;/li&gt;
       &lt;li&gt;color Picker&lt;/li&gt;
@@ -14,19 +15,64 @@
   &lt;/li&gt;
   &lt;li&gt;markdown&lt;br /&gt;
  A cheat sheet (also cheatsheet) or crib sheet is a concise set of notes used for quick reference. They contain a collection of notes, facts, and commands you can reference at any given time. For programming, the cheat sheets contain common syntaxes and data properties for a particular coding language.&lt;br /&gt;
- Here is markdown cheat sheet. Click this –&amp;gt; &lt;a href=&quot;/assets/markdown-cheatsheet-online.pdf&quot;&gt;markdown-cheatsheet pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Let’s change “About.md”
+ Here is markdown cheat sheet. Click this –&amp;gt; &lt;a href=&quot;/assets/markdown-cheatsheet-online.pdf&quot;&gt;markdown-cheatsheet pdf&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;Open “About.md” file. You will see codes like this. Change “layout” from post to about
-        &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;s&quot;&gt;---&lt;/span&gt;
- &lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
- &lt;span class=&quot;s&quot;&gt;---&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
+      &lt;li&gt;setup markdown snippet
+ &lt;img src=&quot;/assets/img/markdownsnippet.JPG&quot; alt=&quot; markdown snippet&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+	&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jkl-img-link-asset-route&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;prefix&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jkl-img&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+          &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/assets/img/$0&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jekyll image assets location&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jkl-page-desctiption&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;prefix&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jkl-page-desc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;title:  $0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;categories:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;- DailyDiary&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;excerpt: |&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;  $1 &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;feature_text: |&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;  ##  $2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;  $3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;feature_image: 'https://picsum.photos/2560/600?image=2'&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mathjax: true  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jekyll blog page top description&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;        
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;_config.yml
+    &lt;ul&gt;
+      &lt;li&gt;It has all global variables such as title, author etc.&lt;/li&gt;
+      &lt;li&gt;If you delete a variable, it is not shown on page.&lt;/li&gt;
+      &lt;li&gt;Change title, author, username and email.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Let’s change “About.md”
+    &lt;ul&gt;
+      &lt;li&gt;Open “About.md” file. You will see codes like this. Change “layout” from post to about&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
   &lt;li&gt;Change color of title.
     &lt;ul&gt;
       &lt;li&gt;Open “main.scss” file&lt;/li&gt;
@@ -45,50 +91,11 @@
   &lt;li&gt;git
     &lt;ul&gt;
       &lt;li&gt;Download sourcetree :  https://www.sourcetreeapp.com/&lt;/li&gt;
-      &lt;li&gt;Create new repository and push your project files&lt;/li&gt;
+      &lt;li&gt;Create new repository. The name should be &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;push your project files&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Visual Studio Extensions Open Extenions by Ctrl+Shit+x There is side menu on top left. Click … and select installed extensions. Only installed extensions are broght up on a list. Once you check what extensions are installed, search extensions below and install all of them. Markdown+Math(goessner.mdmath) color Picker Jekyll Snippets Lorem Ipsum Markdown Emoji Markdown Preview Github Styling markdown A cheat sheet (also cheatsheet) or crib sheet is a concise set of notes used for quick reference. They contain a collection of notes, facts, and commands you can reference at any given time. For programming, the cheat sheets contain common syntaxes and data properties for a particular coding language. Here is markdown cheat sheet. Click this –&amp;gt; markdown-cheatsheet pdf Let’s change “About.md” Open “About.md” file. You will see codes like this. Change “layout” from post to about --- layout: post title: About permalink: /about/ --- Change color of title. Open “main.scss” file Find “brand-color” Change RGB code Add new post Add new md file write markdown Add emoji Add image git Download sourcetree : https://www.sourcetreeapp.com/ Create new repository and push your project files</summary></entry><entry><title type="html">How To Customize</title><link href="http://localhost:4000/2019/06/13/how-to-customize.html" rel="alternate" type="text/html" title="How To Customize" /><published>2019-06-13T00:00:00+10:00</published><updated>2019-06-13T00:00:00+10:00</updated><id>http://localhost:4000/2019/06/13/how-to-customize</id><content type="html" xml:base="http://localhost:4000/2019/06/13/how-to-customize.html">&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js&quot;&gt;
-&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css&quot; integrity=&quot;sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y&quot; crossorigin=&quot;anonymous&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://gitcdn.xyz/repo/goessner/mdmath/master/css/texmath.css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css&quot;&gt;
-
-&lt;/head&gt;&lt;body class=&quot;markdown-body&quot;&gt;
-
-&lt;ol&gt;
-&lt;li data-line=&quot;9&quot; class=&quot;code-line&quot;&gt;
-&lt;p data-line=&quot;9&quot; class=&quot;code-line&quot;&gt;Install VS settings&lt;/p&gt;
-&lt;/li&gt;
-&lt;li data-line=&quot;10&quot; class=&quot;code-line&quot;&gt;
-&lt;p data-line=&quot;10&quot; class=&quot;code-line&quot;&gt;markdown&lt;br&gt;
-A cheat sheet (also cheatsheet) or crib sheet is a concise set of notes used for quick reference. They contain a collection of notes, facts, and commands you can reference at any given time. For programming, the cheat sheets contain common syntaxes and data properties for a particular coding language.&lt;br&gt;
-Here is markdown cheat sheet. Click this --&amp;gt; &lt;a href=&quot;/c:/Users/jinkook/Documents/6.geun-workplace/geun-blog-jekyll/assets/markdown-cheatsheet-online.pdf&quot;&gt;markdown-cheatsheet pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li data-line=&quot;13&quot; class=&quot;code-line&quot;&gt;
-&lt;p data-line=&quot;13&quot; class=&quot;code-line&quot;&gt;Let's change &amp;quot;&lt;a href=&quot;http://about.md/&quot;&gt;About.md&lt;/a&gt;&amp;quot;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li data-line=&quot;14&quot; class=&quot;code-line&quot;&gt;Open &amp;quot;&lt;a href=&quot;http://about.md/&quot;&gt;About.md&lt;/a&gt;&amp;quot; file. You will see codes like this. Change &amp;quot;layout&amp;quot; from post to about&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code data-line=&quot;16&quot; class=&quot;code-line language-yaml&quot;&gt;&lt;div&gt;&lt;span class=&quot;hljs-meta&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;hljs-attr&quot;&gt;layout:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;hljs-attr&quot;&gt;title:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;About&lt;/span&gt;
-&lt;span class=&quot;hljs-attr&quot;&gt;permalink:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;/about/&lt;/span&gt;
-&lt;span class=&quot;hljs-meta&quot;&gt;---&lt;/span&gt;
-&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li data-line=&quot;23&quot; class=&quot;code-line&quot;&gt;
-&lt;p data-line=&quot;23&quot; class=&quot;code-line&quot;&gt;Change color of title.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li data-line=&quot;24&quot; class=&quot;code-line&quot;&gt;Open &amp;quot;main.scss&amp;quot; file&lt;/li&gt;
-&lt;li data-line=&quot;25&quot; class=&quot;code-line&quot;&gt;Find &amp;quot;brand-color&amp;quot;&lt;/li&gt;
-&lt;li data-line=&quot;26&quot; class=&quot;code-line&quot;&gt;Change RGB code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;/body&gt;&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Markdown Cheat sheet!</title><link href="http://localhost:4000/diary/2019/06/12/tips.html" rel="alternate" type="text/html" title="Markdown Cheat sheet!" /><published>2019-06-12T00:00:00+10:00</published><updated>2019-06-12T00:00:00+10:00</updated><id>http://localhost:4000/diary/2019/06/12/tips</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/12/tips.html">&lt;p&gt;Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Visual Studio Extensions Open Extenions by Ctrl+Shit+x There is side menu on top left. Click … and select installed extensions. Only installed extensions are brought up on a list. Check what extensions are installed This list is extenstions you will need to make jekyll site. Open extension panel and search extensions below to install all of them. Markdown+Math(goessner.mdmath) color Picker Jekyll Snippets Lorem Ipsum Markdown Emoji Markdown Preview Github Styling markdown A cheat sheet (also cheatsheet) or crib sheet is a concise set of notes used for quick reference. They contain a collection of notes, facts, and commands you can reference at any given time. For programming, the cheat sheets contain common syntaxes and data properties for a particular coding language. Here is markdown cheat sheet. Click this –&amp;gt; markdown-cheatsheet pdf setup markdown snippet</summary></entry><entry><title type="html">Markdown Cheat sheet!</title><link href="http://localhost:4000/diary/2019/06/12/tips.html" rel="alternate" type="text/html" title="Markdown Cheat sheet!" /><published>2019-06-12T00:00:00+10:00</published><updated>2019-06-12T00:00:00+10:00</updated><id>http://localhost:4000/diary/2019/06/12/tips</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/12/tips.html">&lt;p&gt;Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Love myself I do. Not everything, but I love the good as well as the bad. I love my crazy lifestyle, and I love my hard discipline. I love my freedom of speech and the way my eyes get dark when I’m tired. I love that I have learned to trust people with my heart, even if it will get broken. I am proud of everything that I am and will become.
@@ -97,31 +104,27 @@ Johnny Weir&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/markdown-cheatsheet-online.pdf&quot;&gt;Download cheat sheet PDF&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.</summary></entry><entry><title type="html">Math - Year 9</title><link href="http://localhost:4000/diary/2019/06/11/math.html" rel="alternate" type="text/html" title="Math - Year 9" /><published>2019-06-11T00:00:00+10:00</published><updated>2019-06-11T00:00:00+10:00</updated><id>http://localhost:4000/diary/2019/06/11/math</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/11/math.html">&lt;p&gt;&lt;strong&gt;Substitution&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;If numerical value of each letter is given to you in an algebraic expression then the corresponding letters can be substitute in the numbers and hence find the value of the expression.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Keep in mind a concept of variables or pronumerals&lt;/p&gt;
+  &lt;p&gt;If numerical value of each letter is given to you in an algebraic expression then the corresponding letters can be substitute in the numbers and hence find the value of the expression. Keep in mind a concept of variables or pronumerals&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Glossary&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;dl&gt;
-      &lt;dt&gt;monomials 단항식&lt;/dt&gt;
+      &lt;dt&gt;monomials&lt;/dt&gt;
       &lt;dd&gt;an algebraic expression consisting of one term&lt;/dd&gt;
     &lt;/dl&gt;
   &lt;/li&gt;
-  &lt;li&gt;binomials or polynimials 이항식 혹은 다항식
+  &lt;li&gt;binomials or polynomials 
   an expression of more than two algebraic terms&lt;/li&gt;
   &lt;li&gt;
     &lt;dl&gt;
-      &lt;dt&gt;Like terms 동류항&lt;/dt&gt;
+      &lt;dt&gt;Like terms&lt;/dt&gt;
       &lt;dd&gt;Letters or group of letters are identical except for the leading number in front.&lt;/dd&gt;
     &lt;/dl&gt;
   &lt;/li&gt;
-  &lt;li&gt;terms 항&lt;/li&gt;
-  &lt;li&gt;coefficient 계수&lt;/li&gt;
+  &lt;li&gt;terms&lt;/li&gt;
+  &lt;li&gt;coefficient&lt;/li&gt;
   &lt;li&gt;expand : to remove grouping symbols or brackets&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -134,7 +137,7 @@ Johnny Weir&lt;/p&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Removing Grouping symbols&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Grouping symbols&lt;/em&gt; means &lt;code class=&quot;highlighter-rouge&quot;&gt;Brackets&lt;/code&gt;. In other words, it is called “EXPAND”.&lt;/p&gt;
+&lt;em&gt;Grouping symbols&lt;/em&gt; means &lt;strong&gt;Brackets&lt;/strong&gt;. Removing grouping symbols means remove brakets. In other words, it is called &lt;strong&gt;EXPAND&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;$a(b+c) = ab + bc$ &lt;br /&gt;
 $a(b-c) = ab - bc$&lt;/p&gt;
@@ -157,8 +160,7 @@ $a(b-c) = ab - bc$&lt;/p&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt; &lt;br /&gt;
-Expand:&lt;/p&gt;
-
+Expand polynomials below:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;$6(a-3)$&lt;/li&gt;
   &lt;li&gt;$-(3-2x)$&lt;/li&gt;
@@ -172,7 +174,7 @@ Expand:&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;Answer 
-6) $4x^3+14x^2y+3y^3$&lt;/p&gt;</content><author><name></name></author><summary type="html">Substitution If numerical value of each letter is given to you in an algebraic expression then the corresponding letters can be substitute in the numbers and hence find the value of the expression.</summary></entry><entry><title type="html">Next post!</title><link href="http://localhost:4000/diary/2019/06/10/next.html" rel="alternate" type="text/html" title="Next post!" /><published>2019-06-10T21:48:32+10:00</published><updated>2019-06-10T21:48:32+10:00</updated><id>http://localhost:4000/diary/2019/06/10/next</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/10/next.html">&lt;p&gt;Searching for open content is an important function enabled by our approach. You can use Google to search for Creative Commons content, look for pictures at Flickr, albums at Jamendo, and general media at spinxpress. The Wikimedia Commons, the multimedia repository of Wikipedia, is a core user of our licenses as well.&lt;/p&gt;
+6) $4x^3+14x^2y+3y^3$&lt;/p&gt;</content><author><name></name></author><summary type="html">Substitution If numerical value of each letter is given to you in an algebraic expression then the corresponding letters can be substitute in the numbers and hence find the value of the expression. Keep in mind a concept of variables or pronumerals</summary></entry><entry><title type="html">Next post!</title><link href="http://localhost:4000/diary/2019/06/10/next.html" rel="alternate" type="text/html" title="Next post!" /><published>2019-06-10T21:48:32+10:00</published><updated>2019-06-10T21:48:32+10:00</updated><id>http://localhost:4000/diary/2019/06/10/next</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/10/next.html">&lt;p&gt;Searching for open content is an important function enabled by our approach. You can use Google to search for Creative Commons content, look for pictures at Flickr, albums at Jamendo, and general media at spinxpress. The Wikimedia Commons, the multimedia repository of Wikipedia, is a core user of our licenses as well.&lt;/p&gt;
 
 &lt;p&gt;Taken together, these three layers of licenses ensure that the spectrum of rights isn’t just a legal concept. It’s something that the creators of works can understand, their users can understand, and even the Web itself can understand.&lt;/p&gt;</content><author><name></name></author><summary type="html">Searching for open content is an important function enabled by our approach. You can use Google to search for Creative Commons content, look for pictures at Flickr, albums at Jamendo, and general media at spinxpress. The Wikimedia Commons, the multimedia repository of Wikipedia, is a core user of our licenses as well.</summary></entry><entry><title type="html">Blog 3!</title><link href="http://localhost:4000/diary/2019/06/10/blog-3.html" rel="alternate" type="text/html" title="Blog 3!" /><published>2019-06-10T00:00:00+10:00</published><updated>2019-06-10T00:00:00+10:00</updated><id>http://localhost:4000/diary/2019/06/10/blog-3</id><content type="html" xml:base="http://localhost:4000/diary/2019/06/10/blog-3.html">&lt;p&gt;LoremAute id consequat amet aliquip non adipisicing deserunt pariatur. Nisi sint laborum amet consequat reprehenderit ex ipsum eiusmod mollit ut. Proident adipisicing quis eiusmod velit fugiat esse. Elit incididunt quis commodo officia incididunt cupidatat ipsum voluptate non aute incididunt cillum. Voluptate eiusmod nisi incididunt elit mollit nostrud.&lt;/p&gt;
 

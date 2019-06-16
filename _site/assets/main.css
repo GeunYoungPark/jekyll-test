@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|PT+Serif");
-pre[class^="highlight"] {
+div[class^="language"] pre {
   border: 0.5px #747373 solid;
   background-color: rgba(233, 229, 229, 0.856); }
 

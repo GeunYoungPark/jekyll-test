@@ -16,5 +16,5 @@ Jessi
 
 Juha loves to draw and this is Juha's drawing.
 ![Juha](/assets/img/juha.png)
-
-[jekyll-organization]: https://github.com/jekyll
+ 
+ 
