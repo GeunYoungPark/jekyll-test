@@ -81,8 +81,20 @@ permalink: /about/
     * Add image  
 
 6. git
-    * Download sourcetree :  https://www.sourcetreeapp.com/
-    * Create new repository. The name should be ```<username>.github.io```
-    * push your project files
+    * Log in to github : 
+        https://github.com/JessiYoon
+        Password : WpTldbs1~
+        email : geun2young@gmail
+        birthday : 1/1/1970
+        gender: female
+        Github user : JessiYoon
+
+
+        
+    * How to push your code 
+           git remote add JessiYoon https://github.com/JessiYoon/Jekyll_site.git
+    * Create new repository
+    * Clone jekyll_site
+    * push your project files to jekyll_site
 
 
